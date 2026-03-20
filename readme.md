@@ -17,6 +17,7 @@ I used.
 - Exceptions
 - Type inference with `auto`
 - Function overloading
+- A namespace `MyWordCount`
 
 ### How to build
 
