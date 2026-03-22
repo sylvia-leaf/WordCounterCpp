@@ -25,7 +25,7 @@ Navigate to the `src` directory and type `make build` or `make clean-build`.
 
 Requires a C++14 or later compiler. If you are on a compiler that does not support C++20, modify `CXXFLAGS` in the Makefile and replace `-std=c++20` with the correct version.
 
-Only tested on macOS for now. Might work on other platforms.
+Tested on macOS (clang++), Ubuntu (g++) on WSL, and Windows (g++ with MinGW). Not tested on MSVC for now.
 
 ### License
 

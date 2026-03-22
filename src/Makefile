@@ -12,4 +12,4 @@ build: main.cpp file_load.o count_words.o
 	$(CXX) -c -o $@ $< $(CXXFLAGS)
 
 clean:
-	@rm -rf word_count ./*.o
+	@rm -rf word_count word_count.* ./*.o 
