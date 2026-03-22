@@ -5,6 +5,7 @@
 #include <string>
 #include <vector>
 #include <cerrno>
+#include <cstring>
 
 namespace MyWordCount {
 auto LoadFile(std::string& file_name) {

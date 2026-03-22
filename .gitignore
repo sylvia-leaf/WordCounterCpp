@@ -1,1 +1,4 @@
 *.txt
+*.o
+.DS_Store
+word_count
